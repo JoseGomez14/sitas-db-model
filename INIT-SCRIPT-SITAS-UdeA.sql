@@ -16,7 +16,8 @@ CREATE TABLE
     airplane_model VARCHAR2 (15) PRIMARY KEY,
     family VARCHAR2 (15) NOT NULL,
     capacity NUMBER (3) NOT NULL,
-    cargo_capacity NUMBER (10, 2)
+    cargo_capacity NUMBER (10, 2) NOT NULL,
+    volume_capacity NUMBER (10, 2) NOT NULL
   );
 
 CREATE TABLE
