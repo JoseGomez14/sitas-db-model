@@ -1,5 +1,11 @@
 # ER Model - SITAS - Universidad de Antioquia
 
+> [!NOTE]  
+> To add the script for your module, remember to read the contribution manual: [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+> [!IMPORTANT]  
+> Remember to consistently use the same SQL formatter. It's available here: [Prettier SQL](https://marketplace.visualstudio.com/items?itemName=inferrinizzard.prettier-sql-vscode)
+
 ## Table descriptions
 
 ### ✈ Flight
