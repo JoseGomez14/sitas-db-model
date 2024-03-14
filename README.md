@@ -25,3 +25,10 @@ Stores information about employees, including their unique identifiers, names, a
 
 ### 🚀 FlightCrew
 Manages the flight crew members, recording details such as unique identifiers, references to flights and employees, and the roles or positions of crew members during flights.
+
+### :package: Luggage
+Manages each passenger's luggage and its unique characteristics, streamlining the process of identifying the appropriate zone for placement. Additionally, it enforces a strict limit on luggage allowance, with any excess baggage incurring an additional charge.
+
+### :card_file_box: LuggageType
+Categorizes items based on their designated placement zone, which may include hand luggage, cabin luggage, or checked luggage.
+
