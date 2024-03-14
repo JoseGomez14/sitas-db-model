@@ -29,6 +29,6 @@ Manages the flight crew members, recording details such as unique identifiers, r
 ### :package: Luggage
 Manages each passenger's luggage and its unique characteristics, streamlining the process of identifying the appropriate zone for placement. Additionally, it enforces a strict limit on luggage allowance, with any excess baggage incurring an additional charge.
 
-### :card_file_box: LuggageType
+### :card_file_box: PlacementArea
 Categorizes items based on their designated placement zone, which may include hand luggage, cabin luggage, or checked luggage.
 
