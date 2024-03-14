@@ -1,0 +1,12 @@
+on: [pull_request]
+
+jobs:
+  sql-review:
+    runs-on: ubuntu-latest
+    name: SQL Check
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check SQL
+        uses: bytebase/sql-review-action@main
+        with:
+          database-type: "ORACLE"
