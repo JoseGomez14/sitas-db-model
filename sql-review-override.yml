@@ -1,0 +1,33 @@
+# This file is generated on https://www.bytebase.com/sql-review-guide#bb.sql-review.prod
+template: bb.sql-review.prod
+ruleList:
+  - type: table.require-pk
+    level: ERROR
+  - type: statement.select.no-select-all
+    level: ERROR
+  - type: statement.where.require
+    level: ERROR
+  - type: statement.insert.must-specify-column
+    level: ERROR
+  - type: statement.dml-dry-run
+    level: WARNING
+  - type: statement.disallow-add-column-with-default
+    level: WARNING
+  - type: statement.add-check-not-valid
+    level: WARNING
+  - type: statement.disallow-add-not-null
+    level: WARNING
+  - type: naming.table
+    level: WARNING
+    payload:
+      format: ^([A-Z][a-z]*)+$
+      maxLength: 63
+  - type: column.maximum-character-length
+    level: WARNING
+    payload:
+      number: 20
+  - type: index.no-duplicate-column
+    level: ERROR
+  - type: column.maximum-varchar-length
+    payload:
+      number: 255

@@ -9,4 +9,5 @@ jobs:
       - name: Check SQL
         uses: bytebase/sql-review-action@main
         with:
+          override-file-path: ./sql-review-override.yml
           database-type: "ORACLE"
