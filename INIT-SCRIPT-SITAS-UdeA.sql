@@ -115,11 +115,13 @@ CREATE TABLE
     WITH
       1 PRIMARY KEY,
       --fk passenger--
-      medical_conditions VARCHAR2 (150) NOT NULL
+      medical_conditions VARCHAR2 (150),
+      allergies VARCHAR2 (150),
+      essential_medications VARCHAR2 (150)
   );
 
 Create table
-  Boarding_pass (
+  Boardingpass (
     Boarding_pass_ID NUMBER (10, 0) GENERATED ALWAYS AS IDENTITY INCREMENT BY 1 START
     WITH
       1 PRIMARY KEY,
