@@ -3,6 +3,8 @@ template: bb.sql-review.prod
 ruleList:
   - type: table.require-pk
     level: ERROR
+  - type: table.no-foreign-key
+    level: DISABLED
   - type: statement.select.no-select-all
     level: ERROR
   - type: statement.where.require
@@ -22,6 +24,8 @@ ruleList:
     payload:
       format: ^([A-Z][a-z]*)+$
       maxLength: 63
+  - type: naming.identifier.no-keyword
+    level: DISABLED
   - type: column.maximum-character-length
     level: WARNING
     payload:
@@ -31,3 +35,7 @@ ruleList:
   - type: column.maximum-varchar-length
     payload:
       number: 255
+  - type: column.required
+    level: DISABLED
+  - type: column.require-default
+    level: DISABLED
