@@ -22,9 +22,8 @@ Before submitting your contribution, please ensure the following:
 Please specify below the tables that have been added, removed, or modified:
 
 - **Added Tables:**
-  - MedicalInfo
-  - Boardingpass
-  - LostLuggageInfo
+  - Table1
+  - Table2
   - ...
 
 - **Removed Tables:**
