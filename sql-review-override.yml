@@ -24,6 +24,8 @@ ruleList:
     payload:
       format: ^([A-Z][a-z]*)+$
       maxLength: 63
+  - type: naming.identifier.no-keyword
+    level: DISABLED
   - type: column.maximum-character-length
     level: WARNING
     payload:
