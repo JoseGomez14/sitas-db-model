@@ -119,7 +119,7 @@ CREATE TABLE
   );
 
 Create table
-  Boarding_pass (
+  Boardingpass (
     Boarding_pass_ID NUMBER (10, 0) GENERATED ALWAYS AS IDENTITY INCREMENT BY 1 START
     WITH
       1 PRIMARY KEY,

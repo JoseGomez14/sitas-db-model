@@ -32,3 +32,11 @@ Manages each passenger's luggage and its unique characteristics, streamlining th
 ### :card_file_box: PlacementArea
 Categorizes items based on their designated placement zone, which may include hand luggage, cabin luggage, or checked luggage.
 
+### 🧳 LostLuggageInfo
+Contains information about where to send luggage in case of lossing it.
+
+### 💉 MedicalInfo
+Stores info about passenger medical info
+
+### 📨 Boardingpass
+Gatters a lot of information from diferents moduls to generates a boarding pass
