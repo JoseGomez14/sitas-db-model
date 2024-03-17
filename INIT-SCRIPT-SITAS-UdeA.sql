@@ -98,3 +98,36 @@ CREATE TABLE
     ) PRIMARY KEY,
     NAME VARCHAR2 (100) NOT NULL
   );
+
+CREATE TABLE
+  LostLuggageInfo (
+    LostLuggageID NUMBER (10, 0) GENERATED ALWAYS AS IDENTITY INCREMENT BY 1 START
+    WITH
+      1 PRIMARY KEY,
+      Shipping_address VARCHAR2 (150) NOT NULL,
+      phone_number VARCHAR2 (150) NOT NULL,
+      receiver_name VARCHAR2 (150) NOT NULL
+  );
+
+CREATE TABLE
+  MedicalInfo (
+    Medical_info_ID NUMBER (10, 0) GENERATED ALWAYS AS IDENTITY INCREMENT BY 1 START
+    WITH
+      1 PRIMARY KEY,
+      --fk passenger--
+      medical_conditions VARCHAR2 (150) NOT NULL
+  );
+
+Create table
+  Boarding_pass (
+    Boarding_pass_ID NUMBER (10, 0) GENERATED ALWAYS AS IDENTITY INCREMENT BY 1 START
+    WITH
+      1 PRIMARY KEY,
+      --fk passenger to get name, phone, document--
+      --fk seat, to get asigned_seat to a passenger or asigned a empy seat--
+      --fk reservation to get reservation_status--
+      Flight_ID NUMBER (10) REFERENCES Flight NOT NULL, --needed departure_date, origin and destination camps
+      medical_info_ID NUMBER (10) REFERENCES Medical_info NOT NULL,
+      Lost_Luggage_ID NUMBER (10) REFERENCES Lost_Luggage NOT NULL,
+      boarding_time TIMESTAMP NOT NULL
+  );
