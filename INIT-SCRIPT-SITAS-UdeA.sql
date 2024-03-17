@@ -127,7 +127,7 @@ Create table
       --fk seat, to get asigned_seat to a passenger or asigned a empy seat--
       --fk reservation to get reservation_status--
       Flight_ID NUMBER (10) REFERENCES Flight NOT NULL, --needed departure_date, origin and destination camps
-      medical_info_ID NUMBER (10) REFERENCES Medical_info NOT NULL,
-      Lost_Luggage_ID NUMBER (10) REFERENCES Lost_Luggage NOT NULL,
+      medical_info_ID NUMBER (10) REFERENCES Medicalinfo NOT NULL,
+      Lost_Luggage_ID NUMBER (10) REFERENCES LostLuggageInfo NOT NULL,
       boarding_time TIMESTAMP NOT NULL
   );
