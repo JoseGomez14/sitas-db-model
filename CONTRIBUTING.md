@@ -12,29 +12,29 @@
 
 Before submitting your contribution, please ensure the following:
 
-- [x] Your changes adhere to the project's coding standards.
-- [x] You have tested your changes thoroughly.
-- [x] Your code is well-documented - [README.md](./README.md).
-- [x] You have provided a clear and concise description of your changes in your pull request.
+- [ ] Your changes adhere to the project's coding standards.
+- [ ] You have tested your changes thoroughly.
+- [ ] Your code is well-documented - [README.md](./README.md).
+- [ ] You have provided a clear and concise description of your changes in your pull request.
 
 ## Tables Modified
 
 Please specify below the tables that have been added, removed, or modified:
 
 - **Added Tables:**
-  - IdentificationType
-  - Person
-  - Position
-  - Privilege
-  - PersonPosition
-  - PositionPrivilege
+  - Table1
+  - Table2
+  - ...
 
 - **Removed Tables:**
-  - No one
+  - Table3
+  - Table4
+  - ...
 
 - **Modified Tables:**
-  - MedicalInfo
-  - Boardingpass
+  - Table5
+  - Table6
+  - ...
 
 Thank you for your contribution!
 
