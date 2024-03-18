@@ -22,16 +22,18 @@ Before submitting your contribution, please ensure the following:
 Please specify below the tables that have been added, removed, or modified:
 
 - **Added Tables:**
-
-  - PaymentMethod
-  - PaymentMethodXUser
-
+  - Table1
+  - Table2
+  - ...
+ 
 - **Removed Tables:**
-
+  - Table3
+  - Table4
+  - ...
+    
 - **Modified Tables:**
-  - Reservation: we changed the word "Reservation" for Booking because it's a better word to  
-     use for this context.
-  - Luggage and BoardingPass: every occurrence of the word "reservation" was
-    changed for booking.
+  - Table5
+  - Table6
+  - ...
 
 Thank you for your contribution!
