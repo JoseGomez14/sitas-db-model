@@ -22,18 +22,18 @@ Before submitting your contribution, please ensure the following:
 Please specify below the tables that have been added, removed, or modified:
 
 - **Added Tables:**
-  - Table 1
-  - Table 2
+  - Table1
+  - Table2
   - ...
  
 - **Removed Tables:**
-  - Table 3
-  - Table 4
+  - Table3
+  - Table4
   - ...
     
 - **Modified Tables:**
-  - Table 5
-  - Table 6
+  - Table5
+  - Table6
   - ...
 
 Thank you for your contribution!
