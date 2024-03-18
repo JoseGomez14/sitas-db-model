@@ -25,12 +25,12 @@ Please specify below the tables that have been added, removed, or modified:
   - Table1
   - Table2
   - ...
-
+ 
 - **Removed Tables:**
   - Table3
   - Table4
   - ...
-
+    
 - **Modified Tables:**
   - Table5
   - Table6
