@@ -153,17 +153,7 @@ CREATE TABLE
             WITH
                 1 INCREMENT BY 1
         ) PRIMARY KEY,
-        --fk Seat, to get the number of seats and the seat assigned to a passenger or assigned an empty seat--
-
-        first_name VARCHAR2 (50) NOT NULL,
-        last_name VARCHAR2 (50) NOT NULL,
-        phone_number VARCHAR2 (15) NOT NULL,
-        email VARCHAR2 (50) NOT NULL,
-        document_number VARCHAR2 (20) NOT NULL,
-        birth_date DATE NOT NULL
-
         person_id NUMBER REFERENCES Person (person_id) NOT NULL
-
     );
 
 CREATE TABLE
