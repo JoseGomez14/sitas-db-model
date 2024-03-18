@@ -44,7 +44,7 @@ Gatters a lot of information from diferents moduls to generates a boarding pass
 ### 📇 IdentificationType
 This table stores various types of identification along with their unique identifiers.
 
-### 👤 User
+### 👤 Person
 Stores information about users including their personal details.
 
 ### 📋 Position
@@ -53,7 +53,7 @@ Stores information about different positions within the organization. Example: p
 ### 🔑 Privilege
 Stores information about different privileges or permissions.
 
-### 🤝 UserPosition
+### 🤝 PersonPosition
 Associates users with their respective positions.
 
 ### 🔓 PositionPrivilege

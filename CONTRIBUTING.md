@@ -23,11 +23,11 @@ Please specify below the tables that have been added, removed, or modified:
 
 - **Added Tables:**
   - IdentificationType
-  - User
+  - Person
   - Position
   - Privilege
-  - UserPosition
-  - UserPrivilege
+  - PersonPosition
+  - PositionPrivilege
 
 - **Removed Tables:**
   - No one
