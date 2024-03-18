@@ -26,6 +26,12 @@ Stores information about employees, including their unique identifiers, names, a
 ### 🚀 FlightCrew
 Manages the flight crew members, recording details such as unique identifiers, references to flights and employees, and the roles or positions of crew members during flights.
 
+### 👤 Passenger 
+Stores main info about passenger and the associated seat.
+
+### 📄 Reservation
+Stores crucial information about the booking, such as the associated passenger, the booked flight, the booking date, the booking status and the total price.
+
 ### :package: Luggage
 Manages each passenger's luggage and its unique characteristics, streamlining the process of identifying the appropriate zone for placement. Additionally, it enforces a strict limit on luggage allowance, with any excess baggage incurring an additional charge.
 
