@@ -37,5 +37,3 @@ Please specify below the tables that have been added, removed, or modified:
   - ...
 
 Thank you for your contribution!
-
----
