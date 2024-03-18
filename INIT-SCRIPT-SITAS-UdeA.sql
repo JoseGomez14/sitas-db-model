@@ -83,7 +83,7 @@ CREATE TABLE
         phone_number VARCHAR2 (15) NOT NULL,
         email VARCHAR2 (50) NOT NULL, 
         document_number VARCHAR2 (20) NOT NULL,
-        birth_date DATE NOT NULL,
+        birth_date DATE NOT NULL
     );
 
 CREATE TABLE
@@ -98,7 +98,7 @@ CREATE TABLE
         flight_id NUMBER REFERENCES Flight NOT NULL,
         reservation_date TIMESTAMP NOT NULL,
         reservation_status VARCHAR2 (20) NOT NULL,
-        total_price NUMBER (10, 2) NOT NULL,
+        total_price NUMBER (10, 2) NOT NULL
     );
 
 CREATE TABLE
