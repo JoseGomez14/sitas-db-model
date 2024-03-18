@@ -22,14 +22,18 @@ Before submitting your contribution, please ensure the following:
 Please specify below the tables that have been added, removed, or modified:
 
 - **Added Tables:**
-  - Passenger
-  - Reservation
-
+  - Table 1
+  - Table 2
+  - ...
+ 
+- **Removed Tables:**
+  - Table 3
+  - Table 4
+  - ...
+    
 - **Modified Tables:**
-  - Flight (we add the status attribute)
-  - MedicalInfo (we add the fk for passenger)
-  - Boardingpass (we add the fk for passenger and reservation)
+  - Table 5
+  - Table 6
+  - ...
 
 Thank you for your contribution!
-
----
