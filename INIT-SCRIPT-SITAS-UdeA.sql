@@ -77,6 +77,7 @@ CREATE TABLE
             WITH
                 1 INCREMENT BY 1
         ) PRIMARY KEY,
+        --fk Seat, to get the number of seats and the seat assigned to a passenger or assigned an empty seat--
         first_name VARCHAR2 (50) NOT NULL,
         last_name VARCHAR2 (50) NOT NULL,
         phone_number VARCHAR2 (15) NOT NULL,
@@ -97,7 +98,7 @@ CREATE TABLE
         flight_id NUMBER REFERENCES Flight NOT NULL,
         reservation_date TIMESTAMP NOT NULL,
         reservation_status VARCHAR2 (20) NOT NULL,
-        total_price NUMBER (10, 2) NOT NULL
+        total_price NUMBER (10, 2) NOT NULL,
     );
 
 CREATE TABLE
