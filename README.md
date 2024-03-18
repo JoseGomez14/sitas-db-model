@@ -60,6 +60,7 @@ Stores info about passenger medical info
 
 Gatters a lot of information from diferents moduls to generates a boarding pass
 
+
 ### 💳 PaymentMethod
 
 Has the information about the different Payment Methods a user can use to pay a booking
@@ -67,3 +68,22 @@ Has the information about the different Payment Methods a user can use to pay a 
 ### PaymentMethodXUser
 
 Saves the information about what Payment Method was used by the user who payed a Booking
+
+### 📇 IdentificationType
+This table stores various types of identification along with their unique identifiers.
+
+### 👤 Person
+Stores information about users including their personal details.
+
+### 📋 Position
+Stores information about different positions within the organization. Example: passenger, employee, etc.
+
+### 🔑 Privilege
+Stores information about different privileges or permissions.
+
+### 🤝 PersonPosition
+Associates users with their respective positions.
+
+### 🔓 PositionPrivilege
+Associates positions with their respective privileges.
+
