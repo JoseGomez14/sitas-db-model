@@ -208,7 +208,8 @@ CREATE TABLE
       1 PRIMARY KEY,
       Shipping_address VARCHAR2 (150) NOT NULL,
       phone_number VARCHAR2 (150) NOT NULL,
-      receiver_name VARCHAR2 (150) NOT NULL
+      receiver_name VARCHAR2 (150) NOT NULL,
+      Luggage_id NUMBER REFERENCES Luggage NOT NULL
   );
 
 CREATE TABLE
