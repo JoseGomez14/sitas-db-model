@@ -40,3 +40,21 @@ Stores info about passenger medical info
 
 ### 📨 Boardingpass
 Gatters a lot of information from diferents moduls to generates a boarding pass
+
+### 📇 IdentificationType
+This table stores various types of identification along with their unique identifiers.
+
+### 👤 User
+Stores information about users including their personal details.
+
+### 📋 Position
+Stores information about different positions within the organization. Example: passenger, employee, etc.
+
+### 🔑 Privilege
+Stores information about different privileges or permissions.
+
+### 🤝 UserPosition
+Associates users with their respective positions.
+
+### 🔓 PositionPrivilege
+Associates positions with their respective privileges.
