@@ -119,8 +119,7 @@ CREATE TABLE
     origin_airport VARCHAR2 (3) NOT NULL REFERENCES Airport (airport_code),
     destination_airport VARCHAR2 (3) NOT NULL REFERENCES Airport (airport_code),
     departure_date TIMESTAMP NOT NULL,
-    arrival_date TIMESTAMP NOT NULL,
-    price NUMBER (10, 2) NOT NULL
+    arrival_date TIMESTAMP NOT NULL
   );
 
 CREATE TABLE
