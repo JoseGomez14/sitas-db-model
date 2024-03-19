@@ -87,3 +87,5 @@ Associates users with their respective positions.
 ### 🔓 PositionPrivilege
 Associates positions with their respective privileges.
 
+### Search_History 
+shows the search history of a particular person
