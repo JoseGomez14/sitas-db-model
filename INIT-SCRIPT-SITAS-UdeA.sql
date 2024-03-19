@@ -85,7 +85,7 @@ CREATE TABLE
     base_price NUMBER (10, 2) NOT NULL,
     tax_percent NUMBER (5, 2) NOT NULL,
     surcharge NUMBER (10, 2) NOT NULL,
-    status VARCHAR2 (20) NOT NULL
+    status VARCHAR2 (20) DEFAULT 'Scheduled' NOT NULL
   );
 
 CREATE TABLE
