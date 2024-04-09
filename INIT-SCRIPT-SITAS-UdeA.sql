@@ -164,7 +164,6 @@ CREATE TABLE
         1 INCREMENT BY 1
     ) PRIMARY KEY,
     --fk User, to get the user who made the booking--
-    passenger_id NUMBER REFERENCES Passenger NOT NULL,
     flight_id NUMBER REFERENCES Flight NOT NULL,
     booking_date TIMESTAMP NOT NULL,
     booking_status VARCHAR2 (20) NOT NULL,
