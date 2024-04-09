@@ -89,3 +89,18 @@ Associates positions with their respective privileges.
 
 ### Search_History 
 shows the search history of a particular person
+
+### SeatStatus
+Saves status of a seat. AVAILABLE or OCCUPIED
+
+### SeatLocation
+Store location type of a seat: WINDOW, CENTER, AISLE
+
+### SeatClass
+Storre class type of a seat: TOURIST, FIRST_CLASS, EXECUTIVE
+
+### Seat
+Save Seat's basic information. References to SeatStatus, SeatLocation, SeatClass, and Flight. Stores seat's label as seat_label. 
+
+### SeatPassenger
+Auxiliar entity to build relationship between a Seat and a Passenger.
