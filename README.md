@@ -36,9 +36,9 @@ Manages the flight crew members, recording details such as unique identifiers, r
 
 Stores main info about passenger and the associated seat.
 
-### 📄 Booking
+### 📄 Reservation
 
-Stores crucial information about the booking, such as the associated passenger, the booked flight, the booking date, the booking status and the total price.
+Stores crucial information about the Reservation, such as the associated passenger, the booked flight, the reservation date, the reservation status and the total price.
 
 ### :package: Luggage
 
