@@ -218,7 +218,7 @@ CREATE TABLE
     WEIGHT FLOAT NOT NULL,
     PASSENGER_ID NUMBER REFERENCES passenger NOT NULL,
     FLIGHT_ID NUMBER REFERENCES flight NOT NULL,
-    reservation_ID NUMBER REFERENCES reservation NOT NULL,
+    Booking_ID NUMBER REFERENCES reservation NOT NULL,
     placement_area_ID REFERENCES PlacementArea NOT NULL
   );
 
@@ -249,7 +249,7 @@ Create table
       1 PRIMARY KEY,
       passenger_id NUMBER REFERENCES Passenger NOT NULL,
       --fk seat, to get asigned_seat to a passenger or asigned a empy seat--
-      reservation_id NUMBER REFERENCES reservation NOT NULL,
+      Booking_id NUMBER REFERENCES reservation NOT NULL,
       Flight_ID NUMBER (10) REFERENCES Flight NOT NULL, --needed departure_date, origin and destination camps
       MEDICAL_INFO_ID NUMBER (10) REFERENCES MEDICAL_INFO NOT NULL,
       LUGGAGE_INFO_ID NUMBER (10) REFERENCES LUGGAGE_INFO NOT NULL,
@@ -341,5 +341,5 @@ CREATE TABLE
         1 INCREMENT BY 1
     ) PRIMARY KEY,
     id_seat NUMBER REFERENCES Seat (id_seat) ON DELETE CASCADE,
-    reservation_id NUMBER REFERENCES Passenger (passenger_id) ON DELETE CASCADE
+    Booking_id NUMBER REFERENCES Passenger (passenger_id) ON DELETE CASCADE
   );
